@@ -1,0 +1,18 @@
+var searchData=
+[
+  ['w_1192',['W',['../classPretiaArCloud_1_1Networking_1_1QuaternionSerializable.html#afb32c10062989860c597f99a9575f6ba',1,'PretiaArCloud::Networking::QuaternionSerializable']]],
+  ['waitforcameratransformasync_1193',['WaitForCameraTransformAsync',['../classPretiaArCloud_1_1SharedAnchorSubsystem.html#a1c4cb1096127b42777f40f7716a58c7f',1,'PretiaArCloud::SharedAnchorSubsystem']]],
+  ['waitforconnectionasync_1194',['WaitForConnectionAsync',['../classPretiaArCloud_1_1Networking_1_1GameSession.html#a2d007934f28738675ff41b62735e87dc',1,'PretiaArCloud.Networking.GameSession.WaitForConnectionAsync()'],['../interfacePretiaArCloud_1_1Networking_1_1IGameSession.html#ae2c6a232895865f92aeccbc4a8a98d53',1,'PretiaArCloud.Networking.IGameSession.WaitForConnectionAsync()']]],
+  ['waitforcooldownasync_1195',['WaitForCooldownAsync',['../classPretiaArCloud_1_1SharedAnchorSubsystem.html#a43a0f4a4b5aab1526c96188f5a18a4f0',1,'PretiaArCloud::SharedAnchorSubsystem']]],
+  ['waitwhilepausedasync_1196',['WaitWhilePausedAsync',['../classPretiaArCloud_1_1SharedAnchorSubsystem.html#a54485306ae673e2e9e6f93b33218a51c',1,'PretiaArCloud::SharedAnchorSubsystem']]],
+  ['weavableattribute_1197',['WeavableAttribute',['../classPretiaArCloud_1_1Networking_1_1WeavableAttribute.html',1,'PretiaArCloud::Networking']]],
+  ['weavableattribute_2ecs_1198',['WeavableAttribute.cs',['../WeavableAttribute_8cs.html',1,'']]],
+  ['write_1199',['Write',['../classPretiaArCloud_1_1NetworkRelocalizationClient.html#a52656cb75dbef9d0c66134291fe8525c',1,'PretiaArCloud.NetworkRelocalizationClient.Write()'],['../classPretiaArCloud_1_1Networking_1_1StreamExtensions.html#af593fc01d71531b8dd201829e24e1b0c',1,'PretiaArCloud.Networking.StreamExtensions.Write()']]],
+  ['write_3c_20t_20_3e_1200',['Write&lt; T &gt;',['../structPretiaArCloud_1_1Networking_1_1NetworkVariableWriter.html#aa005a6ebb51527deb51bb7cee8e9cf1f',1,'PretiaArCloud::Networking::NetworkVariableWriter']]],
+  ['writeall_1201',['WriteAll',['../structPretiaArCloud_1_1Networking_1_1NetworkSynchronizationManager_1_1SynchronizationWriter.html#afc44286c34f8a260e30850e17bd8c1d8',1,'PretiaArCloud::Networking::NetworkSynchronizationManager::SynchronizationWriter']]],
+  ['writebody_1202',['WriteBody',['../structPretiaArCloud_1_1Networking_1_1NetworkSynchronizationManager_1_1SynchronizationWriter.html#ac8eec0ae6d209bb48f2124fa8cc481f4',1,'PretiaArCloud::Networking::NetworkSynchronizationManager::SynchronizationWriter']]],
+  ['writeheader_1203',['WriteHeader',['../classPretiaArCloud_1_1Networking_1_1ReliableGameClient.html#a9637c54ae11b091f6181d0554c75ed9a',1,'PretiaArCloud.Networking.ReliableGameClient.WriteHeader()'],['../classPretiaArCloud_1_1NetworkRelocalizationClient.html#ad2afeaf31c191286436fe71ad98aa354',1,'PretiaArCloud.NetworkRelocalizationClient.WriteHeader(Protocol protocol)'],['../classPretiaArCloud_1_1NetworkRelocalizationClient.html#ae238c07da4364fbf491d67c3ab7bf2bf',1,'PretiaArCloud.NetworkRelocalizationClient.WriteHeader(int bodySize, Protocol protocol)']]],
+  ['writeinitialize_1204',['WriteInitialize',['../classPretiaArCloud_1_1NetworkRelocalizationClient.html#a8de3d886d930d2c8802073a3dd1c26a8',1,'PretiaArCloud::NetworkRelocalizationClient']]],
+  ['writtenspan_1205',['WrittenSpan',['../classPretiaArCloud_1_1Networking_1_1ArrayBufferWriter.html#ad2f169c6224b62d27e09e8bab404128a',1,'PretiaArCloud::Networking::ArrayBufferWriter']]],
+  ['wrongoldpassword_1206',['WrongOldPassword',['../namespacePretiaArCloud_1_1Networking.html#ab7f676c21de4b92726c0d481f8e72734a3fbb4d51e5eaeb3619b03d57d0bf6d9f',1,'PretiaArCloud::Networking']]]
+];

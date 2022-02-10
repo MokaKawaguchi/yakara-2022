@@ -1,0 +1,40 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node138 [label="IMessagePackFormatter",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node138 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="PretiaArCloud.Networking.\lFormatters.PretiaArCloud.Networking.\lDeleteExistInSceneObjectsMsgFormatter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1Formatters_1_1PretiaArCloud_1_1Networking_1_1DeleteExistInSceneObjectsMsgFormatter.html",tooltip=" "];
+  Node138 -> Node140 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node140 [label="PretiaArCloud.Networking.\lFormatters.PretiaArCloud.Networking.\lInstantiateMsgFormatter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1Formatters_1_1PretiaArCloud_1_1Networking_1_1InstantiateMsgFormatter.html",tooltip=" "];
+  Node138 -> Node141 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node141 [label="PretiaArCloud.Networking.\lFormatters.PretiaArCloud.Networking.\lNetworkAnimatorSnapshotMsgFormatter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1Formatters_1_1PretiaArCloud_1_1Networking_1_1NetworkAnimatorSnapshotMsgFormatter.html",tooltip=" "];
+  Node138 -> Node142 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node142 [label="PretiaArCloud.Networking.\lFormatters.PretiaArCloud.Networking.\lNetworkAnimatorSyncMsgFormatter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1Formatters_1_1PretiaArCloud_1_1Networking_1_1NetworkAnimatorSyncMsgFormatter.html",tooltip=" "];
+  Node138 -> Node143 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node143 [label="PretiaArCloud.Networking.\lFormatters.PretiaArCloud.Networking.\lNetworkDestroyMsgFormatter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1Formatters_1_1PretiaArCloud_1_1Networking_1_1NetworkDestroyMsgFormatter.html",tooltip=" "];
+  Node138 -> Node144 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node144 [label="PretiaArCloud.Networking.\lFormatters.PretiaArCloud.Networking.\lNetworkRigidbodySyncMsgFormatter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1Formatters_1_1PretiaArCloud_1_1Networking_1_1NetworkRigidbodySyncMsgFormatter.html",tooltip=" "];
+  Node138 -> Node145 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node145 [label="PretiaArCloud.Networking.\lFormatters.PretiaArCloud.Networking.\lNetworkTransformSyncMsgFormatter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1Formatters_1_1PretiaArCloud_1_1Networking_1_1NetworkTransformSyncMsgFormatter.html",tooltip=" "];
+  Node138 -> Node146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node146 [label="PretiaArCloud.Networking.\lFormatters.PretiaArCloud.Networking.\lNotifyConnectionMsgFormatter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1Formatters_1_1PretiaArCloud_1_1Networking_1_1NotifyConnectionMsgFormatter.html",tooltip=" "];
+  Node138 -> Node147 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node147 [label="PretiaArCloud.Networking.\lFormatters.PretiaArCloud.Networking.\lPlayerJoinedMsgFormatter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1Formatters_1_1PretiaArCloud_1_1Networking_1_1PlayerJoinedMsgFormatter.html",tooltip=" "];
+  Node138 -> Node148 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node148 [label="PretiaArCloud.Networking.\lFormatters.PretiaArCloud.Networking.\lPlayerListChangedMsgFormatter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1Formatters_1_1PretiaArCloud_1_1Networking_1_1PlayerListChangedMsgFormatter.html",tooltip=" "];
+  Node138 -> Node149 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node149 [label="PretiaArCloud.Networking.\lFormatters.PretiaArCloud.Networking.\lQuaternionSerializableFormatter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1Formatters_1_1PretiaArCloud_1_1Networking_1_1QuaternionSerializableFormatter.html",tooltip=" "];
+  Node138 -> Node150 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node150 [label="PretiaArCloud.Networking.\lFormatters.PretiaArCloud.Networking.\lTransformSerializableFormatter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1Formatters_1_1PretiaArCloud_1_1Networking_1_1TransformSerializableFormatter.html",tooltip=" "];
+  Node138 -> Node151 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node151 [label="PretiaArCloud.Networking.\lFormatters.PretiaArCloud.Networking.\lVector3SerializableFormatter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1Formatters_1_1PretiaArCloud_1_1Networking_1_1Vector3SerializableFormatter.html",tooltip=" "];
+  Node138 -> Node152 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node152 [label="PretiaArCloud.Networking.\lObjectFormatterTemplate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1ObjectFormatterTemplate.html",tooltip=" "];
+  Node138 -> Node153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node153 [label="PretiaArCloud.Networking.\lStringIndexedFormatterTemplate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1StringIndexedFormatterTemplate.html",tooltip=" "];
+  Node138 -> Node154 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node154 [label="PretiaArCloud.Networking.\lUnionFormatterTemplate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1UnionFormatterTemplate.html",tooltip=" "];
+}

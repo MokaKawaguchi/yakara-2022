@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['packetreceiver_1776',['PacketReceiver',['../classPretiaArCloud_1_1Networking_1_1PacketReceiver.html#a720b89b1697384ba7aff45c376eedd49',1,'PretiaArCloud::Networking::PacketReceiver']]],
+  ['parseauthresponse_1777',['ParseAuthResponse',['../classPretiaArCloud_1_1Networking_1_1LobbyPacketProcessor.html#afab925f7dd857406b0e1f4619c48ae46',1,'PretiaArCloud::Networking::LobbyPacketProcessor']]],
+  ['parseconnection_1778',['ParseConnection',['../classPretiaArCloud_1_1Networking_1_1GamePacketProcessor.html#a807a5be27925474023ed429075f5d5d7',1,'PretiaArCloud::Networking::GamePacketProcessor']]],
+  ['parsedisconnect_1779',['ParseDisconnect',['../classPretiaArCloud_1_1Networking_1_1GamePacketProcessor.html#a207206ee0f7f4d3d05aaec8c29efb9f8',1,'PretiaArCloud::Networking::GamePacketProcessor']]],
+  ['parsedisconnectresponse_1780',['ParseDisconnectResponse',['../classPretiaArCloud_1_1Networking_1_1LobbyPacketProcessor.html#a11f1db4224832ef179c6c01dc337c963',1,'PretiaArCloud::Networking::LobbyPacketProcessor']]],
+  ['parseerror_1781',['ParseError',['../classPretiaArCloud_1_1Networking_1_1GamePacketProcessor.html#ab9f0e1dfa21141e98a40c846082b3614',1,'PretiaArCloud::Networking::GamePacketProcessor']]],
+  ['parselogoutresponse_1782',['ParseLogoutResponse',['../classPretiaArCloud_1_1Networking_1_1LobbyPacketProcessor.html#ada2f91f5cfdb5bbf37881a0a4e5e3aef',1,'PretiaArCloud::Networking::LobbyPacketProcessor']]],
+  ['parsematchresponse_1783',['ParseMatchResponse',['../classPretiaArCloud_1_1Networking_1_1LobbyPacketProcessor.html#acc17f76bfa1ae130e470466dff68dcd1',1,'PretiaArCloud::Networking::LobbyPacketProcessor']]],
+  ['parseplayermessage_1784',['ParsePlayerMessage',['../classPretiaArCloud_1_1Networking_1_1GamePacketProcessor.html#ab73e00d6528a7314ca0120fd837eaf1c',1,'PretiaArCloud::Networking::GamePacketProcessor']]],
+  ['parseresultcode_1785',['ParseResultCode',['../classPretiaArCloud_1_1Networking_1_1LobbyPacketProcessor.html#ab7da246ce44704a2ebda504232f2a9e7',1,'PretiaArCloud::Networking::LobbyPacketProcessor']]],
+  ['pause_1786',['Pause',['../classPretiaArCloud_1_1SharedAnchorSubsystem.html#ab954bcfa8f2bdb5c2eb2eb7c6ca258ad',1,'PretiaArCloud.SharedAnchorSubsystem.Pause()'],['../interfacePretiaArCloud_1_1ISubsystem.html#a92e7d87913549ced83f9ccd2d0d30a05',1,'PretiaArCloud.ISubsystem.Pause()']]],
+  ['playerevent_1787',['PlayerEvent',['../namespacePretiaArCloud_1_1Networking.html#af24b52498387a8b1c457c164a355537e',1,'PretiaArCloud::Networking']]],
+  ['playerlistevent_1788',['PlayerListEvent',['../namespacePretiaArCloud_1_1Networking.html#aa16738ab3e523b0ed6710c673dc7286d',1,'PretiaArCloud::Networking']]],
+  ['playerlistsnapshotmsg_1789',['PlayerListSnapshotMsg',['../classPretiaArCloud_1_1Networking_1_1PlayerListSnapshotMsg.html#a6200393bac86ea7ac9b1c85e6428e2a1',1,'PretiaArCloud.Networking.PlayerListSnapshotMsg.PlayerListSnapshotMsg(List&lt; uint &gt; userNumbers, List&lt; string &gt; displayNames)'],['../classPretiaArCloud_1_1Networking_1_1PlayerListSnapshotMsg.html#a140e3a863c1db3fa147a788e4f8f3550',1,'PretiaArCloud.Networking.PlayerListSnapshotMsg.PlayerListSnapshotMsg(IEnumerable&lt; Player &gt; players)']]],
+  ['playermessagehandler_1790',['PlayerMessageHandler',['../classPretiaArCloud_1_1Networking_1_1PlayerMessageHandler.html#a58aff1865f2658c3b5ad550f8ceef18a',1,'PretiaArCloud::Networking::PlayerMessageHandler']]],
+  ['playermsgreceived_1791',['PlayerMsgReceived',['../classPretiaArCloud_1_1Networking_1_1ReliableGameClient.html#a9bdb4a6fd044dbe94aa9374100bb7e9b',1,'PretiaArCloud::Networking::ReliableGameClient']]],
+  ['playersyncmessageevent_1792',['PlayerSyncMessageEvent',['../namespacePretiaArCloud_1_1Networking.html#aa600ef489d63326aaf55c997c1b55b54',1,'PretiaArCloud::Networking']]],
+  ['playertohostmessagehandler_1793',['PlayerToHostMessageHandler',['../classPretiaArCloud_1_1Networking_1_1PlayerToHostMessageHandler.html#ac1032b89556b08251e6de98262007e43',1,'PretiaArCloud::Networking::PlayerToHostMessageHandler']]],
+  ['pretiageneratedresolver_1794',['PretiaGeneratedResolver',['../classPretiaArCloud_1_1Networking_1_1Resolvers_1_1PretiaGeneratedResolver.html#a04db2676c8774f2963d19107571ffebe',1,'PretiaArCloud::Networking::Resolvers::PretiaGeneratedResolver']]],
+  ['pretiageneratedresolvergetformatterhelper_1795',['PretiaGeneratedResolverGetFormatterHelper',['../classPretiaArCloud_1_1Networking_1_1Resolvers_1_1PretiaGeneratedResolverGetFormatterHelper.html#a16049ea1cd571b1184dc3070719d5cc6',1,'PretiaArCloud::Networking::Resolvers::PretiaGeneratedResolverGetFormatterHelper']]],
+  ['processexceptionevent_1796',['ProcessExceptionEvent',['../classPretiaArCloud_1_1ARSharedAnchorManager.html#a11b50c76e39398750b73cf56fbfbf526',1,'PretiaArCloud::ARSharedAnchorManager']]],
+  ['processkeypoints_1797',['ProcessKeypoints',['../classPretiaArCloud_1_1ARSharedAnchorManager.html#ac3f9303c792f0d20dd20d043e899a80b',1,'PretiaArCloud::ARSharedAnchorManager']]],
+  ['processpacket_1798',['ProcessPacket',['../classPretiaArCloud_1_1Networking_1_1LobbyClient.html#afb2827368300ee37f7fadbe68658aaeb',1,'PretiaArCloud.Networking.LobbyClient.ProcessPacket()'],['../classPretiaArCloud_1_1Networking_1_1ReliableGameClient.html#aca4f0c3aa7375deb4318e3f9d9484f1a',1,'PretiaArCloud.Networking.ReliableGameClient.ProcessPacket()']]],
+  ['processscore_1799',['ProcessScore',['../classPretiaArCloud_1_1ARSharedAnchorManager.html#a29701a8bdd880bdbae6861ab61e43789',1,'PretiaArCloud::ARSharedAnchorManager']]],
+  ['processsharedanchorstatechanged_1800',['ProcessSharedAnchorStateChanged',['../classPretiaArCloud_1_1ARSharedAnchorManager.html#a33c2f52f935a6fecfc20f8c066133c5b',1,'PretiaArCloud::ARSharedAnchorManager']]]
+];

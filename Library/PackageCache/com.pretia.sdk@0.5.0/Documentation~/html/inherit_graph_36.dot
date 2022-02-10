@@ -1,0 +1,20 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node51 [label="OperationCanceledException",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node51 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="PretiaArCloud.Networking.\lConnectSessionCanceledException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1ConnectSessionCanceledException.html",tooltip=" "];
+  Node51 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="PretiaArCloud.Networking.\lLoginCanceledException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1LoginCanceledException.html",tooltip=" "];
+  Node51 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="PretiaArCloud.Networking.\lLogoutCanceledException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1LogoutCanceledException.html",tooltip=" "];
+  Node51 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="PretiaArCloud.Networking.\lReconnectCanceledException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1ReconnectCanceledException.html",tooltip=" "];
+  Node51 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="PretiaArCloud.Networking.\lRegisterCanceledException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1RegisterCanceledException.html",tooltip=" "];
+  Node51 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="PretiaArCloud.Networking.\lRequestRandomMatchCanceledException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1RequestRandomMatchCanceledException.html",tooltip=" "];
+}

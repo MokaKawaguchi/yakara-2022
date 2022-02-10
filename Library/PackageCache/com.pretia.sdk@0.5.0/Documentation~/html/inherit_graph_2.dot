@@ -1,0 +1,20 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node24 [label="ScriptableObject",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node24 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="PretiaArCloud.AbstractMap\lSelection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1AbstractMapSelection.html",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="PretiaArCloud.CriteriaBased\lMapSelection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1CriteriaBasedMapSelection.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="PretiaArCloud.DirectMapSelection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1DirectMapSelection.html",tooltip=" "];
+  Node24 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="PretiaArCloud.MapSelection\lStrategy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1MapSelectionStrategy.html",tooltip=" "];
+  Node24 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="PretiaArCloud.Networking.\lNetworkSettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1NetworkSettings.html",tooltip=" "];
+  Node24 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="PretiaArCloud.PretiaSDKProject\lSettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1PretiaSDKProjectSettings.html",tooltip=" "];
+}

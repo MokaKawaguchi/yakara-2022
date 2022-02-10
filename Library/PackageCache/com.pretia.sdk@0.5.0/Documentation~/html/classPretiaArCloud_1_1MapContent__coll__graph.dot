@@ -1,0 +1,13 @@
+digraph "PretiaArCloud.MapContent"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="PretiaArCloud.MapContent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Transform" ,fontname="Helvetica"];
+  Node2 [label="PretiaArCloud.MapContent\lTransform",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1MapContentTransform.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Scale\nRotation\nPosition" ,fontname="Helvetica"];
+  Node3 [label="UnityEngine",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Id\nChildren" ,fontname="Helvetica"];
+  Node4 [label="System",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

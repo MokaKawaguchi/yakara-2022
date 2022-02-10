@@ -1,0 +1,26 @@
+digraph "PretiaArCloud.Networking.PlayerMessageHandler"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PretiaArCloud.Networking.\lPlayerMessageHandler",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _localPlayer" ,fontname="Helvetica"];
+  Node2 [label="PretiaArCloud.Networking.\lPlayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1Player.html",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _gameClient" ,fontname="Helvetica"];
+  Node3 [label="PretiaArCloud.Networking.\lReliableGameClient",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1ReliableGameClient.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="IDisposable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _hostMsgBuffer\n_hostToPlayerMsgBuffer\n_playerToHostMsgBuffer\n_playerMsgBuffer" ,fontname="Helvetica"];
+  Node5 [label="PretiaArCloud.Networking.\lArrayBufferWriter\< byte \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1ArrayBufferWriter.html",tooltip=" "];
+  Node6 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _processor" ,fontname="Helvetica"];
+  Node6 [label="PretiaArCloud.Networking.\lGamePacketProcessor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1GamePacketProcessor.html",tooltip=" "];
+  Node7 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _mainThreadExecutor" ,fontname="Helvetica"];
+  Node7 [label="PretiaArCloud.Networking.\lIMainThreadExecutor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacePretiaArCloud_1_1Networking_1_1IMainThreadExecutor.html",tooltip=" "];
+  Node8 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _packetSource" ,fontname="Helvetica"];
+  Node8 [label="PretiaArCloud.Networking.\lIPacketSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacePretiaArCloud_1_1Networking_1_1IPacketSource.html",tooltip=" "];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _tickManager" ,fontname="Helvetica"];
+  Node9 [label="PretiaArCloud.Networking.\lTickManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1TickManager.html",tooltip=" "];
+  Node10 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _serializer" ,fontname="Helvetica"];
+  Node10 [label="PretiaArCloud.Networking.\lISerializer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacePretiaArCloud_1_1Networking_1_1ISerializer.html",tooltip=" "];
+}

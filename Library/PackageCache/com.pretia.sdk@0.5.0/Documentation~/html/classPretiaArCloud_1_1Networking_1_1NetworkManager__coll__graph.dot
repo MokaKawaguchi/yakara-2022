@@ -1,0 +1,34 @@
+digraph "PretiaArCloud.Networking.NetworkManager"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PretiaArCloud.Networking.\lNetworkManager",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="IDisposable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _jsonSerializer" ,fontname="Helvetica"];
+  Node3 [label="PretiaArCloud.IJsonSerializer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacePretiaArCloud_1_1IJsonSerializer.html",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _networkSettings" ,fontname="Helvetica"];
+  Node4 [label="PretiaArCloud.Networking.\lNetworkSettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1NetworkSettings.html",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ScriptableObject",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _projectSettings" ,fontname="Helvetica"];
+  Node6 [label="PretiaArCloud.PretiaSDKProject\lSettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1PretiaSDKProjectSettings.html",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _instance\n_internetConnectivity" ,fontname="Helvetica"];
+  Node7 [label="static",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _lobbyClient" ,fontname="Helvetica"];
+  Node8 [label="PretiaArCloud.Networking.\lLobbyClient",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1LobbyClient.html",tooltip=" "];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _processor" ,fontname="Helvetica"];
+  Node9 [label="PretiaArCloud.Networking.\lLobbyPacketProcessor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1LobbyPacketProcessor.html",tooltip=" "];
+  Node10 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _packetSource" ,fontname="Helvetica"];
+  Node10 [label="PretiaArCloud.Networking.\lIPacketSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacePretiaArCloud_1_1Networking_1_1IPacketSource.html",tooltip=" "];
+  Node11 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _packetSourceFactory" ,fontname="Helvetica"];
+  Node11 [label="PretiaArCloud.Networking.\lIPacketSourceFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacePretiaArCloud_1_1Networking_1_1IPacketSourceFactory.html",tooltip=" "];
+  Node12 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _jwtDecoder" ,fontname="Helvetica"];
+  Node12 [label="PretiaArCloud.IJwtDecoder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacePretiaArCloud_1_1IJwtDecoder.html",tooltip=" "];
+  Node13 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _gameSessionFactory" ,fontname="Helvetica"];
+  Node13 [label="PretiaArCloud.Networking.\lIGameSessionFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacePretiaArCloud_1_1Networking_1_1IGameSessionFactory.html",tooltip=" "];
+}

@@ -1,0 +1,44 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node108 [label="PretiaArCloud.Networking.\lISynchronizable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacePretiaArCloud_1_1Networking_1_1ISynchronizable.html",tooltip=" "];
+  Node108 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node76 [label="PretiaArCloud.Networking.\lNetworkBehaviour",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1NetworkBehaviour.html",tooltip=" "];
+  Node76 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 [label="PretiaArCloud.Networking.\lNetworkAnimator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1NetworkAnimator.html",tooltip=" "];
+  Node76 -> Node78 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node78 [label="PretiaArCloud.Networking.\lNetworkCameraProxy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1NetworkCameraProxy.html",tooltip=" "];
+  Node76 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node79 [label="PretiaArCloud.Networking.\lNetworkRigidbody",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1NetworkRigidbody.html",tooltip=" "];
+  Node76 -> Node80 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node80 [label="PretiaArCloud.Networking.\lNetworkTransform",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1NetworkTransform.html",tooltip=" "];
+  Node70 [label="MonoBehaviour",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node70 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="PretiaArCloud.DontDestroy\lOnLoad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1DontDestroyOnLoad.html",tooltip=" "];
+  Node70 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node72 [label="PretiaArCloud.MapContent\lComponent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1MapContentComponent.html",tooltip=" "];
+  Node70 -> Node73 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node73 [label="PretiaArCloud.MapContents\lController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1MapContentsController.html",tooltip=" "];
+  Node70 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node74 [label="PretiaArCloud.Networking.\lHostOnlyComponent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1HostOnlyComponent.html",tooltip=" "];
+  Node70 -> Node75 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node75 [label="PretiaArCloud.Networking.\lHostOnlyObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1HostOnlyObject.html",tooltip=" "];
+  Node70 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node70 -> Node81 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node81 [label="PretiaArCloud.Networking.\lNetworkCameraManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1NetworkCameraManager.html",tooltip=" "];
+  Node70 -> Node82 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 [label="PretiaArCloud.Networking.\lNetworkIdentity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1NetworkIdentity.html",tooltip=" "];
+  Node70 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="PretiaArCloud.Networking.\lNetworkManagerComponent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1NetworkManagerComponent.html",tooltip=" "];
+  Node70 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="PretiaArCloud.Networking.\lNetworkUpdateSender",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1NetworkUpdateSender.html",tooltip=" "];
+  Node70 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="PretiaArCloud.Networking.\lRegisterNetworkPrefab",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1RegisterNetworkPrefab.html",tooltip=" "];
+  Node70 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="PretiaArCloud.Networking.\lSceneDependency",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1Networking_1_1SceneDependency.html",tooltip=" "];
+  Node70 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="PretiaArCloud.SubsystemLifecycle\lManager\< TSubsystem \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPretiaArCloud_1_1SubsystemLifecycleManager.html",tooltip=" "];
+}
