@@ -15,11 +15,11 @@ D:/2022/PARTY/hackathon/yakara-2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54131
+57229
 Successfully changed project path to: D:/2022/PARTY/hackathon/yakara-2022
 D:/2022/PARTY/hackathon/yakara-2022
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 67.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path D:/game/unity/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'D:/game/unity/2020.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'D:/game/unity/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/game/unity/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/game/unity/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001417 seconds.
+Registered in 0.001336 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.670 seconds
+- Completed reload, in  0.673 seconds
 Domain Reload Profiling:
-	ReloadAssembly (671ms)
+	ReloadAssembly (673ms)
 		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (523ms)
+		EndReloadAssembly (525ms)
 			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (175ms)
+			SetupTypeCache (164ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (201ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (212ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (91ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010120 seconds.
+Registered in 0.009258 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 66.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 57.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.378 seconds
+- Completed reload, in  1.284 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1379ms)
-		BeginReloadAssembly (184ms)
+	ReloadAssembly (1285ms)
+		BeginReloadAssembly (168ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1118ms)
-			LoadAssemblies (141ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1053ms)
+			LoadAssemblies (127ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (370ms)
+			SetupTypeCache (360ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (418ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (382ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (226ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2282 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.3 MB.
-System memory in use after: 95.4 MB.
+System memory in use before: 95.4 MB.
+System memory in use after: 95.6 MB.
 
-Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2678.
-Total: 3.571100 ms (FindLiveObjects: 0.230100 ms CreateObjectMapping: 0.060800 ms MarkObjects: 3.156700 ms  DeleteObjects: 0.121700 ms)
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2679.
+Total: 3.910900 ms (FindLiveObjects: 0.239400 ms CreateObjectMapping: 0.060600 ms MarkObjects: 3.500700 ms  DeleteObjects: 0.108700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,48 +132,313 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Pretia
-  artifactKey: Guid(a4d7abe5237714e0a9b0096507265f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pretia using Guid(a4d7abe5237714e0a9b0096507265f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04378b9dda64c8fb52fd783ea9bb7952') in 0.006374 seconds 
-  Import took 0.009842 seconds .
+  path: Assets/landmark.playable
+  artifactKey: Guid(3eb0e5fd61f67274fab4edfa8d811b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/landmark.playable using Guid(3eb0e5fd61f67274fab4edfa8d811b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3868ec9cd8ccb315a53e67952d3dbae9') in 0.057968 seconds 
+  Import took 0.061523 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Pretia/PretiaSDKProjectSettings.asset
-  artifactKey: Guid(8c3ea9b2400164503ba88a26be72d583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pretia/PretiaSDKProjectSettings.asset using Guid(8c3ea9b2400164503ba88a26be72d583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02180f9c363916b7680c8d245e95cc0') in 0.037470 seconds 
-  Import took 0.040817 seconds .
+  Time since last request: 299.940543 seconds.
+  path: Assets/model/popo
+  artifactKey: Guid(c72c5930dbc3e9c43b06144da2d3d9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo using Guid(c72c5930dbc3e9c43b06144da2d3d9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1cc13743fa48ab1e850e7dff48780f') in 0.002343 seconds 
+  Import took 0.006101 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.838677 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(79e2edc6d17164a98a3ce9e6ce121875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(79e2edc6d17164a98a3ce9e6ce121875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82c3f0f3f60a19e1dab0709f05d19c4') in 0.002422 seconds 
-  Import took 0.006105 seconds .
+  Time since last request: 31.576800 seconds.
+  path: Assets/model/popo/popo_v3.fbx
+  artifactKey: Guid(09fa220e461d8de4d9c51a9e03f6f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_v3.fbx using Guid(09fa220e461d8de4d9c51a9e03f6f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d81c711a84a042ca83a94713314ce7a') in 0.498886 seconds 
+  Import took 0.502768 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.976289 seconds.
+  Time since last request: 6.418896 seconds.
+  path: Assets/model/popo/popo_v3.fbx
+  artifactKey: Guid(09fa220e461d8de4d9c51a9e03f6f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_v3.fbx using Guid(09fa220e461d8de4d9c51a9e03f6f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d36864778ad1971963eb7b2c961e29') in 0.069091 seconds 
+  Import took 0.072934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.977045 seconds.
+  path: Assets/model/popo/Materials
+  artifactKey: Guid(111e5bdf0d162c74794a470da4954d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/Materials using Guid(111e5bdf0d162c74794a470da4954d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078ec6fa9a5827c595d00ae02f8ce812') in 0.002354 seconds 
+  Import took 0.005847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059658 seconds.
+  path: Assets/model/popo/Materials/eyes.mat
+  artifactKey: Guid(d1692368ca5b40c49ac548824a52f98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/Materials/eyes.mat using Guid(d1692368ca5b40c49ac548824a52f98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605603db1ea7be82458c78a145a63e63') in 0.010210 seconds 
+  Import took 0.013658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/model/popo/Materials/shoes.mat
+  artifactKey: Guid(41b8bf6c71d08be498679bf31f7c4fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/Materials/shoes.mat using Guid(41b8bf6c71d08be498679bf31f7c4fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a4b7df53d5872d50de2fc20b040753') in 0.009312 seconds 
+  Import took 0.012540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/model/popo/Materials/popo_2.mat
+  artifactKey: Guid(9929ae3a0d73a76498aa47d2e311d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/Materials/popo_2.mat using Guid(9929ae3a0d73a76498aa47d2e311d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd037ecec33bddec44e2096a7d1f90725') in 0.009138 seconds 
+  Import took 0.012619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/model/popo/Materials/hat.mat
+  artifactKey: Guid(65c4dabcdb0983d4f83ace66c1623ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/Materials/hat.mat using Guid(65c4dabcdb0983d4f83ace66c1623ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8660ccba21b622d6306188ac2522f5e0') in 0.009236 seconds 
+  Import took 0.013339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.258104 seconds.
+  path: Assets/model/landmark
+  artifactKey: Guid(25919a691ae387542b0acd5d1a22e579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/landmark using Guid(25919a691ae387542b0acd5d1a22e579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c31363c52f5d21c667c849a46b89fd0') in 0.002050 seconds 
+  Import took 0.005490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.856630 seconds.
+  path: Assets/model/popo/popo_idle.fbx
+  artifactKey: Guid(972ee84dd422be34f92814b174d5582f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_idle.fbx using Guid(972ee84dd422be34f92814b174d5582f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca530e966277ea3f95090d1253a3671') in 0.007003 seconds 
+  Import took 0.010649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.891972 seconds.
+  path: Assets/model/popo/popo_animation.controller
+  artifactKey: Guid(507eb1998b064d24b8b061731dbe78f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_animation.controller using Guid(507eb1998b064d24b8b061731dbe78f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7966ec5b9fbc30d8221c37eb50b7e449') in 0.004996 seconds 
+  Import took 0.008547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.278639 seconds.
+  path: Assets/model/popo/popo_walk.fbx
+  artifactKey: Guid(86348475b454562428dc6740716690f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_walk.fbx using Guid(86348475b454562428dc6740716690f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cff398e752f467d237c0773601271e4') in 0.006273 seconds 
+  Import took 0.009802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 438.072453 seconds.
+  path: Assets/model/popo/popo_v3.fbm
+  artifactKey: Guid(ab16fe50e4eb9d64c9780f3a04d1c56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_v3.fbm using Guid(ab16fe50e4eb9d64c9780f3a04d1c56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb356b1add97768a404ed6574c66e92') in 0.002270 seconds 
+  Import took 0.005894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.951769 seconds.
+  path: Assets/model/popo/popo_rig.fbx
+  artifactKey: Guid(52c481c94eb053641bda48d106f8951c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_rig.fbx using Guid(52c481c94eb053641bda48d106f8951c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8691d444c64ea483a35f65c03ce684') in 0.110146 seconds 
+  Import took 0.114029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.628120 seconds.
+  path: Assets/model/popo/popo_rig.fbx
+  artifactKey: Guid(52c481c94eb053641bda48d106f8951c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_rig.fbx using Guid(52c481c94eb053641bda48d106f8951c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766ffb581448dfa414be635513d84bb5') in 0.057151 seconds 
+  Import took 0.061539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.446469 seconds.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449bfdf40ccec18e3dbc8be91d9ddb60') in 0.003930 seconds 
-  Import took 0.007390 seconds .
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc442ff271550cd8a65d22fdcaa222e1') in 0.002299 seconds 
+  Import took 0.005727 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.504038 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.002776 seconds 
-  Import took 0.006839 seconds .
+  Time since last request: 128.083234 seconds.
+  path: Assets/model/popo/popo_rig.fbm
+  artifactKey: Guid(c27bf4af7c66afd499e7fb68720ea2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_rig.fbm using Guid(c27bf4af7c66afd499e7fb68720ea2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d811ba171753688fccb7a79d93acf5') in 0.002270 seconds 
+  Import took 0.005906 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.247844 seconds.
-  path: Assets/model
-  artifactKey: Guid(94d141eef897fe54ba1e3b0daa368693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/model using Guid(94d141eef897fe54ba1e3b0daa368693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2254a0fe651e863b198f27143a3892dc') in 0.002490 seconds 
-  Import took 0.005958 seconds .
+  Time since last request: 74.664581 seconds.
+  path: Assets/model/popo/popo_animation.controller
+  artifactKey: Guid(507eb1998b064d24b8b061731dbe78f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_animation.controller using Guid(507eb1998b064d24b8b061731dbe78f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619c9163e4a10c1e1d38e8268c581eac') in 0.003687 seconds 
+  Import took 0.007294 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 253.508535 seconds.
+  path: Assets/model/popo/popo_rig.fbm/eyes.psd
+  artifactKey: Guid(9f3df9c2bb0e0be46a5e374270c0ec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_rig.fbm/eyes.psd using Guid(9f3df9c2bb0e0be46a5e374270c0ec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7566dfbdc6a4110fd21fe09336772dd9') in 0.039825 seconds 
+  Import took 0.043665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/model/popo/popo_rig.fbm/popo_2.psd
+  artifactKey: Guid(1c486e9573d223e458b48df18c6c0c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_rig.fbm/popo_2.psd using Guid(1c486e9573d223e458b48df18c6c0c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5f4b62d3d0af44ced5c92364055d64') in 0.007595 seconds 
+  Import took 0.010934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/model/popo/popo_rig.fbm/hat.psd
+  artifactKey: Guid(ea1b2d8b4f5bf6545a4a7a6f8c77325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_rig.fbm/hat.psd using Guid(ea1b2d8b4f5bf6545a4a7a6f8c77325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5ca34bd49b4077c84b372d649d078e') in 0.007350 seconds 
+  Import took 0.011351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/model/popo/popo_rig.fbm/shoes.psd
+  artifactKey: Guid(1f075b3e1ad30c3449f493f76b9ca13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_rig.fbm/shoes.psd using Guid(1f075b3e1ad30c3449f493f76b9ca13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7673967b84de7bc09e34408ebf3485a1') in 0.007595 seconds 
+  Import took 0.011074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.627029 seconds.
+  path: Assets/model/popo/popo_idle 1.fbx
+  artifactKey: Guid(7912d9b3cc69d724ab83db57e9406ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_idle 1.fbx using Guid(7912d9b3cc69d724ab83db57e9406ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caadf3aff9988b3fd75927cb971f1ba3') in 0.067534 seconds 
+  Import took 0.071488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.572111 seconds.
+  path: Assets/model/popo/popo_idle 1.fbx
+  artifactKey: Guid(7912d9b3cc69d724ab83db57e9406ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_idle 1.fbx using Guid(7912d9b3cc69d724ab83db57e9406ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a0ceea692fb3360cd12c97869382a9') in 0.047893 seconds 
+  Import took 0.051592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.550031 seconds.
+  path: Assets/model/popo/popo_idle 1.fbx
+  artifactKey: Guid(7912d9b3cc69d724ab83db57e9406ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_idle 1.fbx using Guid(7912d9b3cc69d724ab83db57e9406ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01a91d0adda94717aefa421ff2f7f0e') in 0.063756 seconds 
+  Import took 0.067580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.356886 seconds.
+  path: Assets/model/popo/popo_idle 1.fbx
+  artifactKey: Guid(7912d9b3cc69d724ab83db57e9406ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_idle 1.fbx using Guid(7912d9b3cc69d724ab83db57e9406ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c5aecfb56d0b5e521ca831de841245') in 0.047001 seconds 
+  Import took 0.050662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.707702 seconds.
+  path: Assets/model/popo/Materials/eyes.mat
+  artifactKey: Guid(d1692368ca5b40c49ac548824a52f98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/Materials/eyes.mat using Guid(d1692368ca5b40c49ac548824a52f98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb4fd6811dd50df89dd03d357c3cc6d') in 0.007750 seconds 
+  Import took 0.011168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/model/popo/Materials/shoes.mat
+  artifactKey: Guid(41b8bf6c71d08be498679bf31f7c4fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/Materials/shoes.mat using Guid(41b8bf6c71d08be498679bf31f7c4fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8ae2d81fac5a871bd39969495bd201') in 0.008692 seconds 
+  Import took 0.011835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/model/popo/Materials/popo_2.mat
+  artifactKey: Guid(9929ae3a0d73a76498aa47d2e311d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/Materials/popo_2.mat using Guid(9929ae3a0d73a76498aa47d2e311d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c228064d256e3d8d7f6efd97cd1c74') in 0.007431 seconds 
+  Import took 0.011023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/model/popo/Materials/hat.mat
+  artifactKey: Guid(65c4dabcdb0983d4f83ace66c1623ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/Materials/hat.mat using Guid(65c4dabcdb0983d4f83ace66c1623ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a833a91b0e12cd207c76a9305fa56283') in 0.008018 seconds 
+  Import took 0.011514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.121082 seconds.
+  path: Assets/model/popo/popo_rig.fbx
+  artifactKey: Guid(52c481c94eb053641bda48d106f8951c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_rig.fbx using Guid(52c481c94eb053641bda48d106f8951c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2318749cdaeaca2d0631668b95217253') in 0.061438 seconds 
+  Import took 0.065440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.496020 seconds.
+  path: Assets/model/popo/popo_rig.fbx
+  artifactKey: Guid(52c481c94eb053641bda48d106f8951c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_rig.fbx using Guid(52c481c94eb053641bda48d106f8951c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087394514f107fef7511d7849d162204') in 0.052137 seconds 
+  Import took 0.056299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.126874 seconds.
+  path: Assets/model/popo/popo_idle.fbx
+  artifactKey: Guid(972ee84dd422be34f92814b174d5582f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_idle.fbx using Guid(972ee84dd422be34f92814b174d5582f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102faffaa91f42b94d7a87a978f2ce2e') in 0.006782 seconds 
+  Import took 0.010464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.439977 seconds.
+  path: Assets/model/popo/popo_rig.fbx
+  artifactKey: Guid(52c481c94eb053641bda48d106f8951c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_rig.fbx using Guid(52c481c94eb053641bda48d106f8951c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c272d6351a721713105e4a947d23772d') in 0.050533 seconds 
+  Import took 0.054335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.154112 seconds.
+  path: Assets/model/popo/popo_idle.fbx
+  artifactKey: Guid(972ee84dd422be34f92814b174d5582f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_idle.fbx using Guid(972ee84dd422be34f92814b174d5582f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208cfbd13588f0ab5685501c4e87abcd') in 0.006768 seconds 
+  Import took 0.010328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.648486 seconds.
+  path: Assets/model/popo/popo_walk.fbx
+  artifactKey: Guid(86348475b454562428dc6740716690f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_walk.fbx using Guid(86348475b454562428dc6740716690f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edf31099df5a6ec9ccf8c0b327a16c7') in 0.007622 seconds 
+  Import took 0.011247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.451853 seconds.
+  path: Assets/model/popo/popo_walk.fbx
+  artifactKey: Guid(86348475b454562428dc6740716690f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_walk.fbx using Guid(86348475b454562428dc6740716690f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae1541e201c1c332a38b0c788804c01') in 0.007070 seconds 
+  Import took 0.010745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.465763 seconds.
+  path: Assets/model/popo/popo_idle.fbx
+  artifactKey: Guid(972ee84dd422be34f92814b174d5582f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/popo/popo_idle.fbx using Guid(972ee84dd422be34f92814b174d5582f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066b339e457afb79d2863c182be9f319') in 0.006379 seconds 
+  Import took 0.010008 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
